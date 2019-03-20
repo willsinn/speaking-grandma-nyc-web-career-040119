@@ -12,8 +12,8 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma(string)
-
-  if "string".upcase == "string"
+  string=gets.chomp
+  if string == "string"
         puts "I LOVE YOU TOO PUMPKIN!"
   end
 end
