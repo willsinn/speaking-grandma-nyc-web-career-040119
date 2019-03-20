@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma(string)
   string=gets.chomp
-  if string == "string"
+  if string == "'I LOVE YOU GRANDMA!'"
         puts "I LOVE YOU TOO PUMPKIN!"
   end
 end
